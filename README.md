@@ -240,7 +240,7 @@ for key, value in my_dict.items():
 
 ### Collections
 
-[Please explore the library here](https://docs.python.org/2/library/collections.html)
+[Please explore the library here](https://docs.python.org/3.7/library/collections.html)
 
 #### use defaultdict
 
