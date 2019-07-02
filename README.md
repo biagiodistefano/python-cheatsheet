@@ -238,6 +238,10 @@ for key, value in my_dict.items():
 
 ```
 
+### Collections
+
+[Please explore the library here](https://docs.python.org/2/library/collections.html)
+
 #### use defaultdict
 
 Sometimes you may need to dynamically build a complex dict
@@ -270,6 +274,22 @@ my_ddict["a"]["x"].append(1)
 
 ```
 
+#### use Counter
+```python
+from collections import Counter
+
+def count_stuff(my_string):
+    alph = Counter()
+    for char in my_string:
+        alph[char] += 1
+    return alph
+    
+# or EVEN BETTER:
+
+def count_stuff(my_string):
+    return Counter(my_string)
+    
+```
 
 ## Write classes like a pro
 
